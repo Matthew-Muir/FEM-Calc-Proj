@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: white;
+  font-size: 40px;
+}
+
+.flexContainer {
+  display: flex;
+  background-color: #333;
+  width: 400px;
+  height: 600px;
+  flex-wrap: wrap;
+}
+
+.flexBox {
+  width:100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  color: black;
+  border: 2px solid #333;
+  font-size: 40px;
+}
+
+.result {
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color:black;
+  color: white;
+}
+
+.clear {
+  width: 50%
+}
+
+.zero {
+  width: 75%;
+}
+
+.flexBox:hover {
+  box-shadow: inset 10px 10px 100px 100px rgba(98, 98, 98, 0.1);
+}
+
+.symbol {
+  background-color: orange;
+}
